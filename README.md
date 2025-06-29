@@ -37,7 +37,9 @@ cd factopia
 cd backend
 python -m venv venv
 venv\Scripts\activate       # On Windows
-# source venv/bin/activate  # On Mac/Linux
+source venv/bin/activate    # In Mac/Linux
+
+
 
 pip install fastapi uvicorn
 uvicorn main:app --reload
