@@ -28,14 +28,12 @@ Built using **React (frontend)** and **FastAPI (backend)**, it's a great project
 
 ### 1. Clone the repository
 
-```bash
+
 git clone https://github.com/Kuravarsha/factopia.git
 cd factopia
 
 2. Run the Backend (FastAPI)
-bash
-Copy
-Edit
+
 cd backend
 python -m venv venv
 venv\Scripts\activate       # On Windows
@@ -43,10 +41,9 @@ venv\Scripts\activate       # On Windows
 
 pip install fastapi uvicorn
 uvicorn main:app --reload
+
 3. Run the Frontend (React)
-bash
-Copy
-Edit
+
 cd ../frontend
 npm install
 npm start
